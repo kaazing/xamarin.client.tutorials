@@ -57,7 +57,7 @@ namespace KaazingJMSXamarinDemo.iOS.Unified
                     if (!_isConnected) {
                         string uri = uriTextField.Text;
                         Log("CONNECTING: " + uri);
-
+						connectButton.Enabled=false;
                         await Task.Factory.StartNew(() => {
                             IConnectionFactory connectionFactory = new StompConnectionFactory(new Uri(uri));
                             connection = connectionFactory.CreateConnection(null, null);
@@ -72,6 +72,9 @@ namespace KaazingJMSXamarinDemo.iOS.Unified
                         });
 
                         Log("CONNECTED");
+						InvokeOnMainThread(()=> {  
+							connectButton.Enabled=true;
+						});
                         //Enable User Interface for Connected application
                         EnableUI(true);
                     } else {
@@ -90,6 +93,9 @@ namespace KaazingJMSXamarinDemo.iOS.Unified
                     }
 
                     Log("CONNECTION FAILED: " + exc.Message);
+					InvokeOnMainThread(()=> {  
+						connectButton.Enabled=true;
+					});
                     EnableUI(false);
                 }
             }; 
@@ -125,6 +131,9 @@ namespace KaazingJMSXamarinDemo.iOS.Unified
                     consumers.Remove(destinationTextField.Text);
                     consumers.Add(destinationTextField.Text, consumerList);
                 }
+				InvokeOnMainThread(()=> {  
+					sendButton.Enabled=true;
+				});
             };
 
             sendButton.TouchUpInside += (sender, e) => {
@@ -163,12 +172,11 @@ namespace KaazingJMSXamarinDemo.iOS.Unified
 
         public void EnableUI(bool enable)
         {
-            InvokeOnMainThread(delegate {  
+			InvokeOnMainThread(()=> {  
                 if (enable) {
                     _isConnected = true;
                     connectButton.SetTitle("Disconnect", UIControlState.Normal);
                     subscribeButton.Enabled = true;
-                    sendButton.Enabled = true;
                 } else {
                     _isConnected = false;
                     connectButton.SetTitle("Connect", UIControlState.Normal);

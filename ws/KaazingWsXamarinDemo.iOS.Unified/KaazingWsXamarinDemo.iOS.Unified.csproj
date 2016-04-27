@@ -92,8 +92,14 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="Kaazing.Gateway">
-      <HintPath>Kaazing.Gateway.dll</HintPath>
+    <Reference Include="Kaazing.JMS">
+      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.JMS.dll</HintPath>
+    </Reference>
+    <Reference Include="Kaazing.Chai">
+      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.Chai.dll</HintPath>
+    </Reference>
+    <Reference Include="Kaazing.WebSocket">
+      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.WebSocket.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -114,14 +120,14 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="Kaazing.Gateway.dll" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="KaazingGatewayXamarinDemo.iOS.UnifiedViewController.cs" />
-    <Compile Include="KaazingGatewayXamarinDemo.iOS.UnifiedViewController.designer.cs">
-      <DependentUpon>KaazingGatewayXamarinDemo.iOS.UnifiedViewController.cs</DependentUpon>
+    <Compile Include="KaazingWsXamarinDemo.iOS.UnifiedViewController.cs" />
+    <Compile Include="KaazingWsXamarinDemo.iOS.UnifiedViewController.designer.cs">
+      <DependentUpon>KaazingWsXamarinDemo.iOS.UnifiedViewController.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
