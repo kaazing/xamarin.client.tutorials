@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ws://sandbox.kaazing.net/jms" borderStyle="roundedRect" minimumFontSize="17" id="8" autoresizesSubviews="NO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="wss://sandbox.kaazing.net/jms" borderStyle="roundedRect" minimumFontSize="17" id="8" autoresizesSubviews="NO">
                                 <rect key="frame" x="112" y="30" width="548" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>

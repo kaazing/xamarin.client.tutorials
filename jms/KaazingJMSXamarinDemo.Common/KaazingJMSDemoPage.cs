@@ -40,7 +40,7 @@ namespace KaazingJMSXamarinDemo
             uriEntry = new Entry {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
-                Text = "ws://sandbox.kaazing.net/jms",
+                Text = "wss://sandbox.kaazing.net/jms",
             };
 
             uriEntry.Focus();
