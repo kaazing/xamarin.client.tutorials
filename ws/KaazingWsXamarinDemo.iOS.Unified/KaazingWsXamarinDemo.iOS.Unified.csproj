@@ -93,13 +93,13 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Kaazing.JMS">
-      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.JMS.dll</HintPath>
+      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\Xamarin.iOS\Kaazing.JMS.dll</HintPath>
     </Reference>
     <Reference Include="Kaazing.Chai">
-      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.Chai.dll</HintPath>
+      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\Xamarin.iOS\Kaazing.Chai.dll</HintPath>
     </Reference>
     <Reference Include="Kaazing.WebSocket">
-      <HintPath>..\packages\Kaazing.Enterprise.Debug.4.1.2\lib\Xamarin.iOS\Kaazing.WebSocket.dll</HintPath>
+      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\Xamarin.iOS\Kaazing.WebSocket.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
