@@ -87,3 +87,5 @@ bin
 obj
 
 *.userprefs
+
+jms/packages
