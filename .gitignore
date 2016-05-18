@@ -85,7 +85,10 @@ DerivedData
 
 bin
 obj
+lib
+*.xbf
 
 *.userprefs
 
-jms/packages
+
+
