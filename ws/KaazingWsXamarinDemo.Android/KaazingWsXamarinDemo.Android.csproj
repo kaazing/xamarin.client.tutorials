@@ -84,15 +84,6 @@
     <Reference Include="Xamarin.Forms.Platform">
       <HintPath>..\packages\Xamarin.Forms.2.2.0.31\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
-    <Reference Include="Kaazing.JMS">
-      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\MonoAndroid\Kaazing.JMS.dll</HintPath>
-    </Reference>
-    <Reference Include="Kaazing.Chai">
-      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\MonoAndroid\Kaazing.Chai.dll</HintPath>
-    </Reference>
-    <Reference Include="Kaazing.WebSocket">
-      <HintPath>..\packages\Kaazing.Enterprise.4.1.2\lib\MonoAndroid\Kaazing.WebSocket.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
