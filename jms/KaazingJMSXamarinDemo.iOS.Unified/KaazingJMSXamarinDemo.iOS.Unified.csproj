@@ -113,6 +113,7 @@
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Kaazing2.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Kaazing-iPhone.png" />
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Kaazing-iPhone2.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Kaazing3.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
