@@ -1,9 +1,9 @@
 # Xamarin Applications for Kaazing WebSocket API
 
-This repository contains Xamarin Sample Applications for Android, iOS Classic, iOS Unified that use Kaazing WebSocket API
+This repository contains the Xamarin Sample Applications for Android, iOS Classic, and iOS Unified that use the Kaazing WebSocket API.
 
 ## Building instructions
-__Note__: Some times Xamarin cannot properly restore the references from the packages configured vid NuGet; as the result solution build fails.
+__Note__: Sometimes Xamarin cannot properly restore the references from the packages configured via NuGet. As a result, the build solution fails.
 
 To resolve this issue:
 - Open KaazingWsXamarinDemo.Android
