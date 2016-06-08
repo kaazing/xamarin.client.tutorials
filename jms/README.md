@@ -1,21 +1,31 @@
-# Xamarin Applications for Kaazing WebSocket JMS API
+# Kaazing Xamarin WebSocket JMS Tutorial
 
-This repository contains the Xamarin Sample Applications for Android, iOS Classic, iOS Unified that use the Kaazing WebSocket JMS API.
+This tutorial shows how Xamarin application can communicate over the web with a JMS server via Kaazing WebSocket Gateway using Kaazing Xamarin WebSocket Client library. The application publishes text messages to the server and listens to the messages from the server over WebSocket.
 
-## Building instructions
-__Note__: Sometimes Xamarin cannot properly restore the references from the packages configured via NuGet. As a result, the build solution fails.
+## Minimum Requirements for Running or Building Kaazing Xamarin WebSocket JMS Tutorial
 
-To resolve this issue:
-- Open KaazingJMSXamarinDemo.Android
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
-- Open KaazingJMSXamarinDemo.Common
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
-  - Using NuGet add package "Kaazing.Enterprize"
-- Open KaazingJMSXamarinDemo.iOS.Classic
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
+* SDK Level 21 
+to install - In Xamarin studio use: Tools -> Open Android SDK Manager
+* Create provisioning profile for Xamarin 
+[Set up your device for development](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/) 
+and/or 
+[Detailed Instructions] (https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/free-provisioning/)
+
+## Steps for building the project
+
+* Load the solution `jms.client.xamarin.demo.sln` in Xamarin Studio
+* Execute 'Build/Build All'
+
+
+## Interact with Kaazing Xamarin WebSocket JMS Client API
+
+Tutorial how to create Kaazing Xamarin WebSocket JMS application from scratch, to be able to send and receive messages over WebSocket can be found [here](http://kaazing.com/doc/5.0/jms_client_docs/dev-dotnet/xamarin_dotnet_walkthrough.html).
+
+## API Documentation
+
+API Documentation for Kaazing .NET/Xamarin WebSocket JMS Client library is available:
+
+* [Kaazing.JMS](https://kaazing.com/doc/jms/4.0/apidoc/client/dotnet/jms/html/N_Kaazing_JMS.htm)
+* [Kaazing.JMS.Stomp](https://kaazing.com/doc/jms/4.0/apidoc/client/dotnet/jms/html/N_Kaazing_JMS_Stomp.htm)
+* [Kaazing.JMS.Util](https://kaazing.com/doc/jms/4.0/apidoc/client/dotnet/jms/html/N_Kaazing_JMS_Util.htm)
+* [Kaazing.Security](https://kaazing.com/doc/legacy/4.0/apidoc/client/dotnet/gateway/html/N_Kaazing_Security.htm)
