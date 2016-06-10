@@ -1,4 +1,4 @@
-# Kaazing WebSocket Demos for Xamarin
+# Kaazing WebSocket Tutorials for Xamarin
 
 This repository contains solutions for building Xamarin client applications for Android, iOS Classic an iOS Unified using Kaazing WebSocket API.
 - [Kaazing WebSocket Applications](ws)
