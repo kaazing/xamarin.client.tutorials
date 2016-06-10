@@ -1,22 +1,24 @@
-# Xamarin Applications for Kaazing WebSocket API
+# Kaazing Xamarin WebSocket Echo Tutorial
 
-This repository contains the Xamarin Sample Applications for Android, iOS Classic, and iOS Unified that use the Kaazing WebSocket API.
+This tutorial shows how Xamarin application can communicate over the web with an `echo` service running within Kaazing WebSocket Gateway using Kaazing Xamarin WebSocket Client library. The application sends text messages to the `echo` service over WebSocket using Kaazing Xamarin WebSocket Client library.
+The `echo` service, running inside the Kaazing WebSocket Gateway, reflects back the message that is received by the Xamarin application. 
 
-## Building instructions
-__Note__: Sometimes Xamarin cannot properly restore the references from the packages configured via NuGet. As a result, the build solution fails.
+## Minimum Requirements for Running or Building Kaazing Xamarin WebSocket Echo Tutorial
 
-To resolve this issue:
-- Open KaazingWsXamarinDemo.Android
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
-- Open KaazingWsXamarinDemo.Common
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
-  - Using NuGet add package "Kaazing.Enterprize"
-- Open KaazingWsXamarinDemo.iOS.Classic
-  - Open 'Packages'
-  - Remove _all_ packages
-  - Using NuGet add package "Xamarin.Forms"
-  
+* SDK Level 21. To install: In Xamarin studio use 'Tools -> Open Android SDK Manager'
+* Create provisioning profile for Xamarin: <br>
+      [Set up your device for development](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/) <br>
+      [Detailed Instructions] (https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/free-provisioning/)
+
+## Steps for building the project
+
+* Load the solution `ws.client.xamarin.demo.sln` in Xamarin Studio
+* Execute 'Build/Build All'
+
+
+## API Documentation
+
+API Documentation for Kaazing .NET/Xamarin WebSocket Client library is available:
+
+* [Kaazing.HTML5](https://kaazing.com/doc/legacy/4.0/apidoc/client/dotnet/gateway/html/N_Kaazing_HTML5.htm)
+* [Kaazing.Security](https://kaazing.com/doc/legacy/4.0/apidoc/client/dotnet/gateway/html/N_Kaazing_Security.htm)
