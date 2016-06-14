@@ -19,7 +19,7 @@ and/or
 
 ## Interact with Kaazing Xamarin WebSocket JMS Client API
 
-Tutorial how to create Kaazing Xamarin WebSocket JMS application from scratch, to be able to send and receive messages over WebSocket, can be found [here](http://kaazing.com/doc/5.0/jms_client_docs/dev-dotnet/xamarin_dotnet_walkthrough.html).
+Checklist how to create Kaazing Xamarin WebSocket JMS application from scratch, to be able to send and receive messages over WebSocket, can be found [here](http://kaazing.com/doc/5.0/jms_client_docs/dev-dotnet/xamarin_dotnet_walkthrough.html).
 
 ## API Documentation
 
