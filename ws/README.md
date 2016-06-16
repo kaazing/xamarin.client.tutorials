@@ -15,6 +15,7 @@ The `echo` service, running inside the Kaazing WebSocket Gateway, reflects back 
 * Load the solution `ws.client.xamarin.demo.sln` in Xamarin Studio
 * Execute 'Build/Build All'
 
+__Note:__ To test basic authentication for WebSocket connection in demo app use URL -  wss://sandbox.kaazing.net/echo-auth for location.
 
 ## API Documentation
 
