@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>KaazingJMSXamarinDemo.iOS.Classic</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.your-company.KaazingJMSXamarinDemo.iOS.Classic</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -44,5 +42,9 @@
 		<string>Icon-76@2x</string>
 		<string>Icon-76</string>
 	</array>
+	<key>CFBundleName</key>
+	<string>KaazingJMSXamarinDemo.iOS.Classic</string>
+	<key>CFBundleIdentifier</key>
+	<string>Xamarin.Xamarin</string>
 </dict>
 </plist>
