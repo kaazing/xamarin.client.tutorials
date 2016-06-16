@@ -16,6 +16,7 @@ and/or
 * Load the solution `jms.client.xamarin.demo.sln` in Xamarin Studio
 * Execute 'Build/Build All'
 
+__Note:__ To test basic authentication for WebSocket connection in demo app use URL -  wss://sandbox.kaazing.net/jms-auth for location.
 
 ## Interact with Kaazing Xamarin WebSocket JMS Client API
 
