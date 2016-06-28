@@ -17,13 +17,13 @@ and/or
 
 __Note:__ To test basic authentication for Gateway connection use the URL `wss://sandbox.kaazing.net/jms-auth` for location.
 
-## Interact with Kaazing Xamarin WebSocketJMS Client API
+## Interact with Kaazing Xamarin JMS Client API
 
 Documentation on how to create a Kaazing Xamarin JMS application from scratch can be found [here](http://kaazing.com/doc/5.0/jms_client_docs/dev-dotnet/xamarin_dotnet_walkthrough.html).
 
 ## API Documentation
 
-API Documentation for Kaazing .NET/Xamarin WebSocket JMS Client library is available:
+API Documentation for Kaazing .NET/Xamarin JMS Client library is available:
 
 * [Kaazing.JMS](https://kaazing.com/doc/5.0/jms_client_docs/apidoc/client/dotnet/jms/html/N_Kaazing_JMS.htm)
 * [Kaazing.JMS.Stomp](https://kaazing.com/doc/5.0/jms_client_docs/apidoc/client/dotnet/jms/html/N_Kaazing_JMS_Stomp.htm)
