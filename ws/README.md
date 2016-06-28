@@ -1,21 +1,18 @@
-# Kaazing Xamarin WebSocket Echo Tutorial
+# Kaazing Xamarin WebSocket Tutorial
 
-This tutorial shows how Xamarin application can communicate over the web with an `echo` service running within Kaazing WebSocket Gateway using Kaazing Xamarin WebSocket Client library. The application sends text messages to the `echo` service over WebSocket using Kaazing Xamarin WebSocket Client library.
-The `echo` service, running inside the Kaazing WebSocket Gateway, reflects back the message that is received by the Xamarin application. 
+This Xamarin application communicates with an `Echo` service hosted by Kaazing WebSocket Gateway. The application sends and receives  messages with the `Echo` service.
 
-## Minimum Requirements for Running or Building Kaazing Xamarin WebSocket Echo Tutorial
+## Minimum Requirements for Running or Building
 
-* SDK Level 21. To install: In Xamarin studio use 'Tools -> Open Android SDK Manager'
-* Create provisioning profile for Xamarin: <br>
-      [Set up your device for development](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/) <br>
-      [Detailed Instructions] (https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/free-provisioning/)
+* SDK Level 21 - To install, In Xamarin Studio use 'Tools -> Open Android SDK Manager'
+* Create a provisioning profile for Xamarin by following [Set up your device for development](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/) and/or [Detailed Instructions] (https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/free-provisioning/) from Apple.
 
-## Steps for building the project
+## Steps for Building the Project
 
 * Load the solution `ws.client.xamarin.demo.sln` in Xamarin Studio
 * Execute 'Build/Build All'
 
-__Note:__ To test basic authentication for WebSocket connection in demo app use URL -  wss://sandbox.kaazing.net/echo-auth for location.
+__Note:__ To test basic authentication for the Gateway connection use the URL `wss://sandbox.kaazing.net/echo-auth` for location.
 
 ## API Documentation
 
