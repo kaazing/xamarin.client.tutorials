@@ -4,7 +4,7 @@ This Xamarin application communicates with an `Echo` service hosted by Kaazing W
 
 ## Minimum Requirements for Running or Building
 
-* SDK Level 21 - To install, In Xamarin Studio use 'Tools -> Open Android SDK Manager'
+* SDK Level 21 - To install, in Xamarin Studio use 'Tools -> Open Android SDK Manager'
 * Create a provisioning profile for Xamarin by following [Set up your device for development](https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/) and/or [Detailed Instructions] (https://developer.xamarin.com/guides/ios/getting_started/installation/device_provisioning/free-provisioning/) from Apple.
 
 ## Steps for Building the Project
