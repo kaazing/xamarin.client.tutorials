@@ -15,7 +15,7 @@ and/or
 * Load the solution `jms.client.xamarin.demo.sln` in Xamarin Studio
 * Execute 'Build/Build All'
 
-__Note:__ To test basic authentication for Gateway connection use the URL `wss://sandbox.kaazing.net/jms-auth` for location.
+__Note:__ To test basic authentication for Gateway connection use the URL `wss://demos.kaazing.com/jms-auth` for location.
 </br>
 username: tutorial </br>
 password: tutorial 
