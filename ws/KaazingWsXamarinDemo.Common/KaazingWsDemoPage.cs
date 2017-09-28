@@ -34,7 +34,7 @@ namespace KaazingWsXamarinDemo
             uriEntry = new Entry {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
 				VerticalOptions = LayoutOptions.CenterAndExpand,
-				Text = "wss://sandbox.kaazing.net/echo",
+				Text = "wss://demos.kaazing.com/echo",
             };
 
             messageEntry = new Entry {
