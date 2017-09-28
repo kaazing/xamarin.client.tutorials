@@ -12,7 +12,7 @@ This Xamarin application communicates with an `Echo` service hosted by Kaazing W
 * Load the solution `ws.client.xamarin.demo.sln` in Xamarin Studio
 * Execute 'Build/Build All'
 
-__Note:__ To test basic authentication for the Gateway connection use the URL `wss://sandbox.kaazing.net/echo-auth` for location.
+__Note:__ To test basic authentication for the Gateway connection use the URL `wss://demos.kaazing.com/echo-auth` for location.
 </br>
 username: tutorial </br>
 password: tutorial 
